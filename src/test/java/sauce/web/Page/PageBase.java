@@ -1,4 +1,4 @@
-package udemy.web.Page;
+package sauce.web.Page;
 
 import config.WebDriverHelper;
 import org.testng.log4testng.Logger;

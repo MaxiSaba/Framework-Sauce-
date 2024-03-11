@@ -1,12 +1,12 @@
-package udemy.runners.web;
+package sauce.runners.web;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
     tags = "@Sauce and not @Ignore",
-    features = "src/test/resources/udemy/WebTest/Sauce",
-    glue = "udemy.StepDefinitions",
+    features = "src/test/resources/features/sauce",
+    glue = "sauce.StepDefinitions",
     plugin = {
       "pretty",
       "html:test-output",

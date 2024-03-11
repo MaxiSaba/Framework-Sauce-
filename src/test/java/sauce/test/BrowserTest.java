@@ -1,4 +1,4 @@
-package udemy.test;
+package sauce.test;
 
 import config.ConfigDriver;
 import org.openqa.selenium.WebDriver;

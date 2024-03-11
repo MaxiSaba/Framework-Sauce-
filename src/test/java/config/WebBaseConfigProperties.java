@@ -36,9 +36,6 @@ public class WebBaseConfigProperties {
     }
     PLATFORM_NAME = prop.getProperty("webdriver.platformName");
 
-    // system var can be set as $env:webdriver_environment='dev' (windows)
-    // system var can be set as $env:webdriver_client='client1' (windows)
-
     SYSTEM_ENVIRONMENT = System.getenv("webdriver_environment");
     PROPERTIES_ENVIRONMENT = prop.getProperty("webdriver.env");
 
@@ -78,11 +75,6 @@ public class WebBaseConfigProperties {
     return CLIENT;
   }
 
-  public static String setTestNgEnvironment(String value) {
-    TESTNG_ENVIRONMENT = value;
-    return TESTNG_ENVIRONMENT;
-  }
-
   public String getTestNgEnvironment() {
     return TESTNG_ENVIRONMENT;
   }
@@ -93,11 +85,6 @@ public class WebBaseConfigProperties {
 
   public String getSystemEnvironment() {
     return SYSTEM_ENVIRONMENT;
-  }
-
-  public static String setTestNgClient(String value) {
-    TESTNG_CLIENT = value;
-    return TESTNG_CLIENT;
   }
 
   public String getTestNgClient() {

@@ -1,4 +1,4 @@
-package udemy.test;
+package sauce.test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;

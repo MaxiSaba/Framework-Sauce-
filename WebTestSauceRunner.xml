@@ -6,7 +6,7 @@
         <parameter name="browser" value="CHROME"/>
         <classes>
             <class
-                    name="udemy.runners.web.SauceRunner"/>
+                    name="sauce.runners.web.SauceRunner"/>
         </classes>
     </test>
 </suite>
